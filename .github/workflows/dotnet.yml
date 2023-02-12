@@ -12,9 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: 
-      group: GANESH
-      labels: Windows
+    runs-on: [self-hosted, Windows, X64]
 
     steps:
     - uses: actions/checkout@v3
